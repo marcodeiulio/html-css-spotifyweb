@@ -19,6 +19,8 @@ a {
 
 h3 {
 	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 h5 {
@@ -105,6 +107,7 @@ footer {
 
 .sidebar h1 {
 	padding: 15px;
+	line-height: 10px;
 }
 
 .sidebar h1 img:nth-child(1) {
@@ -132,6 +135,14 @@ footer {
 @media screen and (min-width: 576px) {
 	.sidebar {
 		width: 300px;
+	}
+
+	.sidebar a {
+		padding-left: 10px;
+	}
+
+	.sidebar h3 {
+		padding-left: 10px;
 	}
 
 	.sidebar h1 img:nth-child(2) {
