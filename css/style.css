@@ -19,8 +19,7 @@ a {
 
 h3 {
 	color: white;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	font-size: .9rem;
 }
 
 h5 {
@@ -123,6 +122,11 @@ footer {
 	display: none;
 }
 
+.sidebar h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 .sidebar li h5 {
 	vertical-align: middle;
 	display: none;
@@ -159,6 +163,14 @@ footer {
 
 .sidebar-footer hr {
 	display: none;
+}
+
+header a {
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border: 1px solid white;
+	border-radius: 30px;
+	text-align: center;
 }
 
 
