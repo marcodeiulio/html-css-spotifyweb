@@ -32,6 +32,7 @@ h5 {
 
 .wrapper {
 	display: flex;
+	width: 100%;
 }
 
 .viewport {
@@ -96,6 +97,7 @@ footer {
 
 .sidebar ul {
 	list-style-type: none;
+	flex-grow: 1;
 }
 
 .sidebar li {
@@ -128,10 +130,35 @@ footer {
 
 .sidebar-playlists {
 	display: none;
+	flex-grow: 1;
+	width: 100%;
 }
 
 .sidebar-footer {
 	align-self: flex-end;
+	align-self: flex-start;
+	padding: 20px;
+	width: 100%;
+}
+
+.sidebar-footer img {
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	margin: 10px 5px 10px 0;
+}
+
+.sidebar-footer h3 {
+	vertical-align: middle;
+	display: none;
+}
+
+.sidebar-footer h5 {
+	display: none;
+}
+
+.sidebar-footer hr {
+	display: none;
 }
 
 
@@ -145,31 +172,55 @@ footer {
 	}
 
 	.sidebar a {
-		padding-left: 10px;
+		padding-left: 20px;
 	}
-
-	.sidebar h3 {
-		padding-left: 10px;
-	}
-
+	
 	.sidebar h1 img:nth-child(2) {
 		display: block;
 		width: 120px;
 	}
-
+	
 	.sidebar h1 img:nth-child(1) {
 		display: none;
 	}
-
+	
 	.sidebar .wrapper {
 		align-items: flex-start;
 	}
 
+	.sidebar ul {
+		flex-grow: 0;
+	}
+	
 	.sidebar li h5 {
 		display: inline-block;
 	}
-
+	
 	.sidebar-playlists {
+		display: block;
+	}
+
+	.sidebar-playlists h3 {
+		padding-left: 20px;
+	}
+
+	.sidebar-footer {
+		display: block;
+	}
+
+	.sidebar-footer a {
+		padding-left: 0;
+	}
+
+	.sidebar-footer h3 {
+		display: inline-block;
+	}
+	
+	.sidebar-footer h5 {
+		display: inline-block;
+	}
+
+	.sidebar-footer hr {
 		display: block;
 	}
 }
