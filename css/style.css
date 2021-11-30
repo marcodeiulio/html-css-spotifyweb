@@ -4,11 +4,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 /* Layout */
@@ -21,7 +22,7 @@ img {
 header {
 	height: 100px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.644);
+	background-color: rgba(0, 0, 0, 0.322);
 	position: fixed;
 }
 
@@ -31,7 +32,7 @@ main {
 
 .library {
 	height: calc(100vh - 100px);
-	background-color: blue;
+	background-color: #141922;
 	overflow: auto;
 	padding-top: 100px;
 	display: flex;
@@ -43,8 +44,8 @@ main {
 
 .sidebar {
 	height: 100%;
-	width: 10%;
-	background-color: darkblue;
+	width: 60px;
+	background-color: black;
 }
 
 footer {
@@ -54,8 +55,16 @@ footer {
 }
 
 .box {
-	flex-basis: 220px;
-	height: 220px;
+	flex-basis: 35%;
+	/* max-height: 35%; */
+	aspect-ratio: 1 / 1;
 	background-color: green;
 	margin: 10px;
+	/* display: none; */
+}
+
+@media screen and (min-width: 576px) {
+	.sidebar {
+		width: 300px;
+	}
 }
