@@ -64,7 +64,7 @@ main {
 footer {
 	height: 100px;
 	width: 100%;
-	background-color: black;
+	background-color: #282828;
 }
 
 .box {
@@ -83,10 +83,13 @@ footer {
 	width: 60px;
 	background-color: black;
 	color: #a3a3a3;
+	display: flex;
+	flex-direction: column;
 }
 
 .sidebar .wrapper {
 	display: flex;
+	flex-grow: 1;
 	flex-direction: column;
 	align-items: center;
 }
@@ -125,6 +128,10 @@ footer {
 
 .sidebar-playlists {
 	display: none;
+}
+
+.sidebar-footer {
+	align-self: flex-end;
 }
 
 
