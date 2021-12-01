@@ -349,16 +349,12 @@ header a {
 	align-items: center;
 }
 
-.audio a {
-	margin-right: 10px;
-}
-
 .audio a:last-child {
 	margin: 0;
 }
 
 .volume-progress {
-	width: 100%;
+	width: 40%;
 }
 
 .volume-bar {
@@ -442,10 +438,6 @@ header a {
 	/* CONTROLLER */
 
 	/* Audio */
-
-	.audio a {
-		margin-right: 12px;
-	}
 }
 
 @media screen and (min-width: 767px) {
@@ -482,10 +474,11 @@ header a {
 		margin-left: 10px;
 	}
 
-	.audio a {
-		margin-right: 15px;
-	}
+	/* Audio */
 
+	.volume-progress {
+		width: 40%;
+	}
 }
 
 @media screen and (min-width: 991px) {
@@ -508,8 +501,7 @@ header a {
 
 	/* Audio */
 
-
-	.audio a {
-		margin-right: 20px;
+	.volume-progress {
+		width: 50%;
 	}
 }
