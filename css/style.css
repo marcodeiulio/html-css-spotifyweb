@@ -21,11 +21,13 @@ a {
 h3 {
 	color: white;
 	font-size: .9rem;
+	font-weight: 600;
 }
 
 h5 {
 	display: inline-block;
 	color: #a3a3a3;
+	font-weight: 500;
 }
 
 /* Layout */
