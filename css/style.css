@@ -223,7 +223,7 @@ header a {
 	flex-direction: column;
 	justify-content: space-around;
 	width: 90%;
-	height: 20%;
+	height: 25%;
 }
 
 
@@ -290,6 +290,16 @@ header a {
 	.sidebar-footer hr {
 		display: block;
 	}
+
+	/* LIBRARY */
+
+	.playlist-info h3 {
+		font-size: 2.2vw;
+	}
+
+	.playlist-info h5 {
+		font-size: 1.8vw;
+	}
 }
 
 @media screen and (min-width: 767px) {
@@ -299,6 +309,14 @@ header a {
 	.playlist {
 		width: calc(25% - 15px);
 	}
+		
+	.playlist-info h3 {
+		font-size: 1.3vw;
+	}
+
+	.playlist-info h5 {
+		font-size: 1.1vw;
+	}
 }
 
 @media screen and (min-width: 991px) {
@@ -307,5 +325,13 @@ header a {
 	
 	.playlist {
 		width: calc((100% / 6) - 12px);
+	}
+
+	.playlist-info h3 {
+		font-size: 1vw;
+	}
+
+	.playlist-info h5 {
+		font-size: .8vw;
 	}
 }
