@@ -204,7 +204,6 @@ header a {
 	flex-shrink: 0;
 	border-radius: 5px;
 	overflow: hidden;
-	/* display: none; */
 
 	/* rimuovere */
 	background-color: green;
@@ -232,8 +231,80 @@ header a {
 	height: 25%;
 }
 
-/* Controller */
+/* CONTROLLER */
 
+.controller {
+	display: flex;
+	justify-content: space-between;
+}
+
+.controller > * {
+	padding: 10px;
+}
+
+.track-controller {
+	display: flex;
+	width: 25%;
+
+}
+
+.track {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.track-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.mini-box {
+	width: 45%;
+	padding-bottom: 45%;
+	margin-right: 10px;
+	position: relative;
+	flex-shrink: 0;
+	border-radius: 5px;
+	overflow: hidden;
+
+	/* rimuovere */
+	background-color: green;
+}
+
+.mini-box>img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.track-info {
+	flex-grow: 1;
+}
+
+.track-info h3{
+	font-size: .8em;
+}
+
+.track-info h5{
+	font-size: .7em;
+	margin-right: 30px;
+}
+
+.track-like {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.player {
+	flex-grow: 1;
+}
 
 
 
@@ -324,6 +395,23 @@ header a {
 
 	.playlist-info h5 {
 		font-size: 1.1vw;
+	}
+
+	/* CONTROLLER */
+	
+	.track-controller {
+		width: 20%;
+	}
+
+	.track-like {
+		width: 15%;
+		margin: 0;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.track-like a:nth-child(2) {
+		margin-left: 10px;
 	}
 }
 
