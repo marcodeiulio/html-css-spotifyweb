@@ -309,7 +309,8 @@ header a {
 .player {
 	display: flex;
 	flex-direction: column;
-
+	flex-grow: 1;
+	margin: 0 15px 0 15px;
 }
 
 .progress-bar {
