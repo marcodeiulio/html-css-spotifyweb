@@ -242,12 +242,13 @@ header a {
 	padding: 10px;
 }
 
-/* Track Controller */
-
-.track-controller {
-	display: flex;
+.track-controller,
+.audio {
 	width: 25%;
+	display: flex;
 }
+
+/* Track Controller */
 
 .track {
 	width: 100%;
@@ -306,7 +307,6 @@ header a {
 /* Player */
 
 .player {
-	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
 
@@ -322,6 +322,19 @@ header a {
 .progress-time {
 	vertical-align: middle;
 	font-size: .8em;
+}
+
+/* Audio */
+
+.volume-progress {
+	width: 100%;
+}
+
+.volume-bar {
+	display: inline-block;
+	width: 60%;
+	border-top: 2px solid #5a5a5a;
+	vertical-align: middle;
 }
 
 
@@ -415,7 +428,8 @@ header a {
 
 	/* CONTROLLER */
 	
-	.track-controller {
+	.track-controller,
+	.audio {
 		width: 20%;
 	}
 
