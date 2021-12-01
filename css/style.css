@@ -208,6 +208,11 @@ header a {
 	left: 0;
 }
 
+.playlist h3,
+.playlist h5 {
+	text-align: center;
+}
+
 
 
 
