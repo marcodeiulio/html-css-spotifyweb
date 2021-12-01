@@ -56,7 +56,7 @@ main {
 
 .library {
 	height: calc(100vh - 100px);
-	background-color: #141922;
+	background-color: #121212;
 	overflow: auto;
 	padding-top: 100px;
 }
@@ -179,12 +179,20 @@ header a {
 .playlist {
 	float: left;
 	width: calc(50% - 15px);
+	aspect-ratio: 6 / 9;
 	margin: 10px 10px 10px 0;
+	overflow: hidden;
+	background-color: #181818;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .box {
-	width: 100%;
-	padding-bottom: 100%;
+	width: 90%;
+	padding-bottom: 90%;
 	background-color: green;
 	position: relative;
 
