@@ -18,10 +18,6 @@ a {
 	color: white;
 }
 
-h2 {
-	margin: 35px 0 15px 0;
-}
-
 h3 {
 	color: white;
 	font-size: .9rem;
@@ -166,8 +162,16 @@ header a {
 
 /* Library */
 
-.row {
+.container {
 	padding-left: 10px;
+}
+
+.container > h2 {
+	margin: 35px 0 10px 0;
+}
+
+.container > h2 + h5 {
+	margin: 10px 0 10px 0;
 }
 
 .row::after {
@@ -212,8 +216,8 @@ header a {
 	left: 0;
 }
 
-.playlist h3,
-.playlist h5 {
+.playlist-info h3,
+.playlist-info h5 {
 	text-align: center;
 	margin-top: 5px;
 }
