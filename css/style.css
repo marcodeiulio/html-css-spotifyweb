@@ -238,7 +238,7 @@ header a {
 	justify-content: space-between;
 }
 
-.controller {
+.controller > * {
 	padding: 10px;
 }
 
@@ -309,9 +309,20 @@ header a {
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
+
 }
 
+.progress-bar {
+	display: inline-block;
+	width: 80%;
+	border-top: 2px solid #5a5a5a;
+	vertical-align: middle;
+}
 
+.progress-time {
+	vertical-align: middle;
+	font-size: .8em;
+}
 
 
 @media screen and (min-width: 575px) {
