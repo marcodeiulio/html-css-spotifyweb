@@ -166,8 +166,14 @@ header a {
 
 /* Library */
 
+.row::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
 .box {
-	flex-basis: 45%;
+	width: 90%;
 	/* max-height: 35%; */
 	aspect-ratio: 1 / 1;
 	background-color: green;
@@ -175,11 +181,19 @@ header a {
 	/* display: none; */
 }
 
+.playlist {
+	float: left;
+	width: 50%;
+}
 
 
 
 
-@media screen and (min-width: 576px) {
+
+@media screen and (min-width: 575px) {
+	
+	/* SIDEBAR */
+
 	.sidebar {
 		width: 300px;
 	}
@@ -235,5 +249,23 @@ header a {
 
 	.sidebar-footer hr {
 		display: block;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	
+	/* LIBRARY */
+	
+	.playlist {
+		width: 25%;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	
+	/* LIBRARY */
+	
+	.playlist {
+		width: calc(100% / 6);
 	}
 }
