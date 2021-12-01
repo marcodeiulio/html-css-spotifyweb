@@ -327,13 +327,27 @@ header a {
 
 /* Audio */
 
+.audio {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.audio a {
+	margin-right: 10px;
+}
+
+.audio a:last-child {
+	margin: 0;
+}
+
 .volume-progress {
 	width: 100%;
 }
 
 .volume-bar {
 	display: inline-block;
-	width: 60%;
+	width: 100%;
 	border-top: 2px solid #5a5a5a;
 	vertical-align: middle;
 }
@@ -409,6 +423,13 @@ header a {
 	.playlist-info h5 {
 		font-size: 1.8vw;
 	}
+	/* CONTROLLER */
+
+	/* Audio */
+
+	.audio a {
+		margin-right: 12px;
+	}
 }
 
 @media screen and (min-width: 767px) {
@@ -444,6 +465,11 @@ header a {
 	.track-like a:nth-child(2) {
 		margin-left: 10px;
 	}
+
+	.audio a {
+		margin-right: 15px;
+	}
+
 }
 
 @media screen and (min-width: 991px) {
@@ -460,5 +486,14 @@ header a {
 
 	.playlist-info h5 {
 		font-size: .8vw;
+	}
+
+	/* CONTROLLER */
+
+	/* Audio */
+
+
+	.audio a {
+		margin-right: 20px;
 	}
 }
