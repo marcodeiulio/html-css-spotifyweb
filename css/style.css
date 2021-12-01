@@ -238,14 +238,15 @@ header a {
 	justify-content: space-between;
 }
 
-.controller > * {
+.controller {
 	padding: 10px;
 }
+
+/* Track Controller */
 
 .track-controller {
 	display: flex;
 	width: 25%;
-
 }
 
 .track {
@@ -302,8 +303,12 @@ header a {
 	margin-left: 15px;
 }
 
+/* Player */
+
 .player {
 	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
 }
 
 
