@@ -310,18 +310,34 @@ header a {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
 	margin: 0 15px 0 15px;
+}
+
+.player-controller {
+	width: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.player-progress {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .progress-bar {
 	display: inline-block;
 	width: 80%;
+	margin: 0 10px 0 10px;
 	border-top: 2px solid #5a5a5a;
-	vertical-align: middle;
 }
 
 .progress-time {
-	vertical-align: middle;
 	font-size: .8em;
 }
 
