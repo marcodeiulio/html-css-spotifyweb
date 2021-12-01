@@ -18,6 +18,10 @@ a {
 	color: white;
 }
 
+h2 {
+	margin: 35px 0 15px 0;
+}
+
 h3 {
 	color: white;
 	font-size: .9rem;
@@ -267,7 +271,7 @@ header a {
 	/* LIBRARY */
 	
 	.playlist {
-		width: 25%;
+		width: calc(25% - 15px);
 	}
 }
 
@@ -276,6 +280,6 @@ header a {
 	/* LIBRARY */
 	
 	.playlist {
-		width: calc(100% / 6);
+		width: calc((100% / 6) - 12px);
 	}
 }
