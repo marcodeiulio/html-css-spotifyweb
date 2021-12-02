@@ -110,7 +110,8 @@ footer {
 }
 
 .sidebar a:hover h5,
-.sidebar a:hover h3 {
+.sidebar a:hover h3,
+.sidebar a:hover i {
 	color: white;
 }
 
