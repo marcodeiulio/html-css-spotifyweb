@@ -404,6 +404,16 @@ header a {
 	margin-bottom: 15px;
 }
 
+#play-button {
+	transform: scale(1);
+	transition: transform .3s;
+}
+
+#play-button:hover {
+	transform: scale(1.3);
+	transition: transform .3s;
+}
+
 .player-progress {
 	width: 100%;
 	display: flex;
