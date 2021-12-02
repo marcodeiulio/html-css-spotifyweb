@@ -88,6 +88,14 @@ footer {
 	align-items: center;
 }
 
+.sidebar-nav img {
+	filter: brightness(0.5);
+}
+
+.sidebar img.active {
+	filter: brightness(1);
+}
+
 .sidebar ul {
 	list-style-type: none;
 	flex-grow: 1;
@@ -407,6 +415,10 @@ header a {
 	
 	.sidebar li h5 {
 		display: inline-block;
+	}
+
+	.sidebar .active {
+		color: white;
 	}
 	
 	.sidebar-playlists {
