@@ -74,6 +74,7 @@ footer {
 .sidebar {
 	height: 100%;
 	width: 60px;
+	flex-shrink: 0;
 	background-color: black;
 	color: #a3a3a3;
 	display: flex;
@@ -379,7 +380,7 @@ header a {
 	/* SIDEBAR */
 
 	.sidebar {
-		width: 300px;
+		width: 180px;
 	}
 
 	.sidebar a {
