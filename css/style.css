@@ -87,6 +87,10 @@ footer {
 	align-items: center;
 }
 
+.sidebar-nav {
+	flex-grow: 1;
+}
+
 .sidebar-nav img {
 	filter: brightness(0.5);
 }
@@ -448,6 +452,10 @@ header a {
 
 	.sidebar {
 		width: 180px;
+	}
+	
+	.sidebar-nav {
+		flex-grow: 0;
 	}
 
 	.sidebar a {
