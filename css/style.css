@@ -385,6 +385,14 @@ header a {
 	margin-left: 15px;
 }
 
+.track-like i {
+	color: #a3a3a3;
+}
+
+.track-like a:hover i {
+	color: white;
+}
+
 /* Player */
 
 .player {
