@@ -104,7 +104,8 @@ footer {
 	margin-bottom: 10px;
 }
 
-.sidebar a:hover h5{
+.sidebar a:hover h5,
+.sidebar a:hover h3 {
 	color: white;
 }
 
@@ -140,6 +141,16 @@ footer {
 	display: none;
 	flex-grow: 1;
 	width: 100%;
+}
+
+.create-playlist,
+.create-playlist i {
+	color: #a3a3a3;
+	vertical-align: middle;
+}
+
+h3.create-playlist  {
+	margin: 0 0 10px 0;
 }
 
 .sidebar-footer {
