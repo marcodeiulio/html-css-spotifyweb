@@ -225,6 +225,18 @@ header a {
 	transition: background-color .3s;
 }
 
+.playlist:hover .box::after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f144";
+	font-size: 36px;
+	position: absolute;
+	color: #1db954;
+	right: 0;
+	bottom: 0;
+}
+
+
 .box {
 	width: 90%;
 	padding-bottom: 90%;
@@ -232,9 +244,6 @@ header a {
 	flex-shrink: 0;
 	border-radius: 5px;
 	overflow: hidden;
-
-	/* rimuovere */
-	background-color: green;
 }
 
 .box>img {
