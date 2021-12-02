@@ -41,15 +41,19 @@ h5 {
 	height: calc(100vh - 100px);
 }
 
-header {
-	height: 100px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	position: fixed;
-}
-
 main {
 	width: 100%;
+}
+
+header {
+	height: 100px;
+	width: calc(100vw - 55px);
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: right;
+	line-height: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
 }
 
 .library {
@@ -154,12 +158,17 @@ footer {
 	display: none;
 }
 
+/* Header */
+
+header h3 {
+	display: inline-block;
+}
+
 header a {
 	text-transform: uppercase;
 	padding: 10px 25px;
 	border: 1px solid white;
 	border-radius: 30px;
-	text-align: center;
 }
 
 /* Library */
@@ -424,6 +433,19 @@ header a {
 
 	.sidebar-footer hr {
 		display: block;
+	}
+
+	/* Header */
+
+	header {
+		height: 100px;
+		width: calc(100vw - 206px);
+		background-color: rgba(0, 0, 0, 0.7);
+		text-align: right;
+		line-height: 100px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
 	}
 
 	/* LIBRARY */
