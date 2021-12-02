@@ -47,7 +47,7 @@ main {
 
 header {
 	height: 100px;
-	width: calc(100vw - 55px);
+	width: calc(100vw - 60px);
 	background-color: rgba(0, 0, 0, 0.7);
 	text-align: right;
 	line-height: 100px;
@@ -170,6 +170,7 @@ header a {
 	padding: 10px 25px;
 	border: 1px solid white;
 	border-radius: 30px;
+	margin-right: 5px;
 }
 
 /* Library */
@@ -439,14 +440,7 @@ header a {
 	/* Header */
 
 	header {
-		height: 100px;
-		width: calc(100vw - 206px);
-		background-color: rgba(0, 0, 0, 0.7);
-		text-align: right;
-		line-height: 100px;
-		position: fixed;
-		z-index: 1;
-		top: 0;
+		width: calc(100vw - 180px);
 	}
 
 	/* LIBRARY */
