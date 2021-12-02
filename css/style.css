@@ -379,6 +379,11 @@ header a {
 	margin-right: 30px;
 }
 
+.track-info h5:hover {
+	text-decoration: underline;
+	color: white;
+}
+
 .track-like {
 	display: flex;
 	flex-direction: column;
