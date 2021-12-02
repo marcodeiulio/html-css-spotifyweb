@@ -78,6 +78,7 @@ footer {
 	color: #a3a3a3;
 	display: flex;
 	flex-direction: column;
+	overflow: auto;
 }
 
 .sidebar .wrapper {
@@ -145,6 +146,7 @@ footer {
 	display: none;
 	flex-grow: 1;
 	width: 100%;
+	flex-shrink: 1;
 }
 
 .create-playlist,
@@ -353,9 +355,6 @@ header a {
 	flex-shrink: 0;
 	border-radius: 5px;
 	overflow: hidden;
-
-	/* rimuovere */
-	background-color: green;
 }
 
 .mini-box>img {
@@ -450,7 +449,7 @@ header a {
 .progress-bar-current {
 	width: 30%;
 	height: 3px;
-	background-color: #1db954;
+	background-color: white;
 	border-radius: 5px;
 	position: relative;
 }
@@ -469,6 +468,10 @@ header a {
 
 .progress-bar-wrapper:hover .current-pointer {
 	display: inline-block;
+}
+
+.progress-bar-wrapper:hover .progress-bar-current {
+	background-color: #1db954;
 }
 
 .progress-bar-wrapper:hover {
@@ -508,13 +511,17 @@ header a {
 .volume-bar-current {
 	width: 30%;
 	height: 3px;
-	background-color: #1db954;
+	background-color: white;
 	border-radius: 5px;
 	position: relative;
 }
 
 .volume-progress:hover .current-pointer {
 	display: inline-block;
+}
+
+.volume-progress:hover .volume-bar-current {
+	background-color: #1db954;
 }
 
 
